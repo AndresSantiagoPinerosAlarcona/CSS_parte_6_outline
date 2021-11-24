@@ -1,0 +1,28 @@
+*{
+	font-family: 'Anton',gorgia ;
+	font-weight: 100;
+	fout-size: 30px;
+}
+.caja1{
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin: auto;	
+	border: 10px solid yellow; 				/*Ocupa espacio adentro de la caja*/
+}
+.caja2{
+	width: 200px;
+	height: 200px;
+	background: blue;
+	margin: auto;
+	border: 10px solid red;
+	box-sizing: content-box;				/*Ocupa espacio fuera de la caja*/
+}
+.caja3{
+	width: 200px;
+	height: 200px;
+	background: green;
+	margin: auto;
+	outline: 10px solid pink;				/* NO Ocupa espacio fuera de la caja, sirve para marcar un objeto*/
+	box-sizing: content-box;				
+}
